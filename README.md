@@ -1,95 +1,192 @@
-# Welcome to Your Miaoda Project
-Miaoda Application Link URL
-    URL:https://medo.dev/projects/app-c47ww49mxkht
+# DermaScan
 
-# Welcome to Your Miaoda Project
+### AI-Powered Skin Health Assessment for Accessible, Localized Care
 
-## Project Info
+DermaScan is an AI-powered skin health platform designed to help people better understand visible skin concerns through image and text based analysis.
 
-## Project Directory
+Users can describe, upload or capture an image of a skin concern and receive highly accurate information about the possible conditions, treatment recommendations, and connect them with dermatologists for more in-depth professional guidance.
 
-```
-├── README.md # Documentation
-├── components.json # Component library configuration
-├── index.html # Entry file
-├── package.json # Package management
-├── postcss.config.js # PostCSS configuration
-├── public # Static resources directory
-│   ├── favicon.png # Icon
-│   └── images # Image resources
-├── src # Source code directory
-│   ├── App.tsx # Entry file
-│   ├── components # Components directory
-│   ├── context # Context directory
-│   ├── db # Database configuration directory
-│   ├── hooks # Common hooks directory
-│   ├── index.css # Global styles
-│   ├── layout # Layout directory
-│   ├── lib # Utility library directory
-│   ├── main.tsx # Entry file
-│   ├── routes.tsx # Routing configuration
-│   ├── pages # Pages directory
-│   ├── services # Database interaction directory
-│   ├── types # Type definitions directory
-├── tsconfig.app.json # TypeScript frontend configuration file
-├── tsconfig.json # TypeScript configuration file
-├── tsconfig.node.json # TypeScript Node.js configuration file
-└── vite.config.ts # Vite configuration file
-```
+> **DermaScan is an informational and screening tool, not a replacement for professional medical diagnosis or treatment.**
 
-## Tech Stack
+---
 
-Vite, TypeScript, React, Supabase
+## The Problem
 
-## Development Guidelines
+Skin conditions are common, but getting reliable information about them is not always easy.
 
-### How to edit code locally?
+For many people in Nigeria, accessing a dermatologist can be expensive, time-consuming, or simply unavailable depending on their location. As a result, people often rely on social media, search engines, or self-diagnosis when they notice something unusual on their skin.
 
-You can choose [VSCode](https://code.visualstudio.com/Download) or any IDE you prefer. The only requirement is to have Node.js and npm installed.
+This creates several problems:
 
-### Environment Requirements
+* Difficulty identifying unfamiliar skin conditions
+* Limited access to dermatological expertise
+* Reliance on unreliable online information
+* Incorrect self-diagnosis and treatment
+* Limited awareness of treatment options
+* Difficulty finding relevant and affordable products locally
 
-```
-# Node.js ≥ 20
-# npm ≥ 10
-Example:
-# node -v   # v20.18.3
-# npm -v    # 10.8.2
-```
+**DermaScan aims to provide a more accessible first step between noticing a skin concern and seeking professional care.**
 
-### Installing Node.js on Windows
+---
 
-```
-# Step 1: Visit the Node.js official website: https://nodejs.org/, click download. The website will automatically suggest a suitable version (32-bit or 64-bit) for your system.
-# Step 2: Run the installer: Double-click the downloaded installer to run it.
-# Step 3: Complete the installation: Follow the installation wizard to complete the process.
-# Step 4: Verify installation: Open Command Prompt (cmd) or your IDE terminal, and type `node -v` and `npm -v` to check if Node.js and npm are installed correctly.
-```
+## What DermaScan Does
 
-### Installing Node.js on macOS
+DermaScan allows users to:
 
-```
-# Step 1: Using Homebrew (Recommended method): Open Terminal. Type the command `brew install node` and press Enter. If Homebrew is not installed, you need to install it first by running the following command in Terminal:
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-Alternatively, use the official installer: Visit the Node.js official website. Download the macOS .pkg installer. Open the downloaded .pkg file and follow the prompts to complete the installation.
-# Step 2: Verify installation: Open Command Prompt (cmd) or your IDE terminal, and type `node -v` and `npm -v` to check if Node.js and npm are installed correctly.
-```
+1. **Describe, Capture or upload a skin image**
+2. **Analyze the image using AI**
+3. **Receive an assessment of possible skin conditions**
+4. **Learn about the identified condition**
+5. **Explore treatment and management information**
+6. **View potential side effects and safety warnings**
+7. **Discover relevant products and price ranges available in Nigeria**
+8. **Save and review previous scans**
 
-### After installation, follow these steps:
 
-```
-# Step 1: Download the code package
-# Step 2: Extract the code package
-# Step 3: Open the code package with your IDE and navigate into the code directory
-# Step 4: In the IDE terminal, run the command to install dependencies: npm i
-# Step 5: In the IDE terminal, run the command to start the development server: npm run dev -- --host 127.0.0.1
-# Step 6: if step 5 failed, try this command to start the development server: npx vite --host 127.0.0.1
-```
 
-### How to develop backend services?
+## Key Features
 
-Configure environment variables and install relevant dependencies.If you need to use a database, please use the official version of Supabase.
+### AI Skin Analysis
 
-## Learn More
+Users can describe or upload an image of a visible skin concern and receive an AI-generated assessment.
 
-You can also check the help documentation: Download and Building the app（ [https://intl.cloud.baidu.com/en/doc/MIAODA/s/download-and-building-the-app-en](https://intl.cloud.baidu.com/en/doc/MIAODA/s/download-and-building-the-app-en)）to learn more detailed content.
+### Condition Information
+
+DermaScan provides highly accurate information about possible conditions, including:
+
+* Common symptoms
+* Typical appearance
+* Potential causes
+* Risk factors
+* General management information
+
+### Treatment Guidance
+
+Users can explore commonly used treatment approaches and understand how different treatment options are generally used.
+
+### Localized Product Information
+
+Unlike generic international health platforms, DermaScan is designed with the Nigerian market in mind.
+
+Where reliable data is available, users can find:
+
+* Relevant products
+* Nigerian availability
+* Estimated price ranges
+* Different price tiers
+
+### Skin-Type Considerations
+
+The platform can take skin characteristics into consideration when presenting relevant skincare information.
+
+### Scan History
+
+Users can review previous assessments and track changes over time.
+
+### Safety Warnings
+
+The platform highlights situations where users should seek professional medical attention rather than relying on the platforms assessment.
+
+---
+
+## Why DermaScan?
+
+DermaScan is built around three principles:
+
+### Accessibility
+
+Skin-health information should not be limited to people who can easily access specialist care.
+
+### Localization
+
+Healthcare information should reflect the realities of the people using it, including locally available products and pricing.
+
+### Responsible AI
+
+AI should help people make better-informed decisions without pretending to replace qualified healthcare professionals.
+
+---
+
+## Technology Stack
+
+
+**Frontend**
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+
+**AI / Machine Learning**
+
+* Computer vision / image classification
+* AI-powered skin image analysis
+
+**Backend**
+
+* Node.js
+* REST APIs
+
+**Database**
+
+* Supabase
+
+**Email**
+
+* Resend
+
+
+## Responsible AI & Medical Disclaimer
+
+DermaScan is designed as an **AI-assisted informational and screening tool**.
+
+It does **not** provide a definitive medical diagnosis.
+
+AI-generated results may be inaccurate because image quality, lighting, skin tone, camera quality, and other factors can affect image-based analysis.
+
+Users should consult a qualified healthcare professional for:
+
+* Persistent or worsening symptoms
+* Severe pain, swelling, or bleeding
+* Rapidly changing skin lesions
+* Suspected serious infections
+* Unclear or concerning results
+* Any condition requiring professional diagnosis or treatment
+
+**Do not use DermaScan as a substitute for professional medical advice.**
+
+---
+
+## Privacy
+
+Skin images and health-related information can be sensitive.
+
+DermaScan follows privacy-by-design principles, including:
+
+* Secure transmission of user data
+* Appropriate access controls
+* Minimal collection of personal information
+* Secure handling of uploaded images
+* Clear data-retention policies
+* No unnecessary sharing of user information
+
+
+**Development / Prototype**
+
+DermaScan is currently being developed as an AI-powered skin-health platform focused on improving access to preliminary skin-health information.
+
+The project is being built with a focus on:
+
+* AI-assisted image analysis
+* Nigerian users
+* Local product availability
+* Accessible health information
+* Responsible AI implementation
+
+
+## Project Vision
+
+Built with the goal of making skin-health information more **accessible, understandable, and locally relevant**.
+
+
+### Built for Africa. Designed for Access. Powered by AI.
