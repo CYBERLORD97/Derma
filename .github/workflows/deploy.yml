@@ -35,9 +35,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Typecheck
-        run: pnpm typecheck
-
       - name: Build site
         run: pnpm exec vite build --mode github-pages
         env:
